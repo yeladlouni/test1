@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="login.html">Se connecter</a><br><hr>
-    <a href="signup.html">S'enregistrer</a><br><hr>
-    <img src="img/user.png" width="50" height="50" /><br>
+    <a href="index.html">Se connecter</a><br><hr>
+    <a href="index.html">S'enregistrer</a><br><hr>
+    <a href="index.html#p1">
+        <img src="img/user.png" width="50" height="50" /><br>
+    </a>
     <button>Quitter</button>
     <ul>
         <li>Finances</li>
@@ -16,7 +18,7 @@
         <li>Physique</li>
     </ul>
     <p>هذه فقرة بالعربية</p>
-    <ol>
+    <ol class="p1">
         <li>1ère année</li>
         <li>2ème année</li>
         <li>3ème année</li>
@@ -24,9 +26,46 @@
     <p>This is the first manner to write a paragraph in red</p>
     <p>This is a paragraph in red</p>
     <p>This is the third way to change the color of a paragraph</p>
-    <p>This is the fourth manner to change the color of an html element</p>
+    <p class="p1">This is the fourth manner to change the color of an html element</p>
     <p>Ceci est <br> un exemple de pararaphe</p>
-    <p><i>Les misérables</i> est un roman dont l'auteur est <sub>Victor Hugo</sub></p>
+    <p id="p1" class="p1"><i>Les misérables</i> est un roman dont l'auteur est <sub>Victor Hugo</sub></p>
+
+    <img src="img/desktop.png" usemap="#mymap" width="300" height="300">
+    <map name="mymap">
+        <area class="tooltip" shape="rect" alt="laptop" coords="100,100,150,150"
+              href="https://www.google.com?q=laptop">
+        <area class="tooltip" shape="rect" alt="lampe" coords="190,65,229,145" tool
+              href="https://www.google.com?q=lampe">
+    </map>
+
+
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>CNE</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>2002939039</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Dummy2</td>
+            <td>Dummy2</td>
+            <td>2002939039</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Dummy4</td>
+            <td>Dummy4</td>
+            <td>2002939039</td>
+            <td>29</td>
+        </tr>
+        <caption>Tableau récapitulatif</caption>
+    </table>
 </body>
 </html>
 
