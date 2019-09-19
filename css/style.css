@@ -29,3 +29,11 @@ tr:nth-child(odd) {
     background-color: white;
 }
 
+.block {
+    background-color: #eeeeee;
+}
+
+#div1 {
+    color: red;
+}
+
