@@ -1,0 +1,29 @@
+Création de l'application de gestion de l'étudiant
+
+1. Créer la page d'authentification
+afin de récupérer le username et le password.
+ * username est l'email de utilisateur doit respecter
+ le format d'un email
+ * password: doit être composer d'au moins une
+ lettre majuscule, un chiffre et un caractère
+ spécial "_", "@" ou "/"
+2. Créer une page pour l'enregistrement
+de l'utilisateur afin de récupérer:
+Le nom de l'utilisateur
+Le prénom de l'utilisateur
+L'adresse de l'utilisateur
+La date de naissance
+une image de profil
+
+4. Créer une page pour la saisie des notes pour chaque module
+* module
+* Date début
+* Date fin
+* Note
+
+3. Créer une page pour afficher les résultat finaux de l'étudiant
+sous forme de table
+* Nom du module
+* Date de début de module
+* Date de fin de module
+* Note sur 20 du module
